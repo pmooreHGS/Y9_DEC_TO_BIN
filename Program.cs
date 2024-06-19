@@ -20,7 +20,7 @@ namespace Y9_DEC_TO_BIN_SKELETON
             //CODE GOES HERE
         }
 
-        //static void means the function will not return a value so it does not need a data type
+        //static void means the function will not return a value so it does not need a data type 
         //...this function DOES return a value so the method must have a data type
         static string numberConversion(int number, int numberbase)
         {
