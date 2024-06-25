@@ -15,11 +15,13 @@ namespace Y9_DEC_TO_BIN_SKELETON
             string myString = "12"; //watch me being cast from string to int
             int myStringAsInt = Convert.ToInt32(myString); //watch me cast from string to int
 
-            //MAIN:  NUMBER CONVERSION PROGRAM
-
-            //CODE GOES HERE
+            //MAIN CHALLENGE: WRITE A PROGRAM TO CONVERT ANY INTEGER TO ITS EQUIVALENT BINARY NUMBER
+            //WRITE A CALL TO YOUR NUMBER CONVERSION FUNCTION HERE
+            
+            
         }
 
+        // LET'S USE THE 'STRUCTURED APPROACH' TO PROGRAMMING...A QUICK INTRODUCTION TO SUBBROUTINES(functions and procedures)...a.k.a. 'methods' in C#
         //static void means the function will not return a value so it does not need a data type 
         //...this function DOES return a value so the method must have a data type
         static string numberConversion(int number, int numberbase)
